@@ -3,10 +3,10 @@
 Genetic_algo part
 Basically We will randomly populate the population.
 Then Fitness function is used to sort Individual based on their Quality.
-Criteria for Fitness Function\n
+Criteria for Fitness Function \n
       Hard Constraints:
       No student can have two class at a same time
-      No  Teachers have to teach class at a same time
+      No Teachers have to teach class at a same time
 Fitness function= (1/(1+Number of conflicts(No student can have two class at a same time)+Number of conflicts(No  Teachers have to teach class at a same time)))
 Higher Fitness function implies good Individual
 current population= randomly assigned
